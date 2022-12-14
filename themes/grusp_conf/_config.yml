@@ -6,23 +6,24 @@ language: "it"
 # main menu navigation
 menu:
   welcome: welcome
-  talks_speakers: talk
+# talks_speakers: talk
   # scommentare per generare pagina
-  schedule: programma
+# schedule: programma
   # menu item for workshop
-  workshop: workshop
+# workshop: workshop
   sponsor: sponsor
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
-workshop_submenu:
-   font_variabili: Tipografia web e font variabili
+# workshop_submenu:
+#    font_variabili: Tipografia web e font variabili
 #   workshop_2: sample second workshop
 
 # welcome submenu
 welcome_submenu:
   about: about
-  coc: code of conduct
-  scholarships: scholarships
+  coc: codice di condotta
+  scholarships: scholarship
+  where: dove e come
   # where: where
   # delete this row to take out of the menu
   cfp: call for papers

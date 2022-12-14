@@ -6,27 +6,27 @@
 # conference config
 conference:
   # Online-only conferences
-  is_online_only: true
-  online_location: "online"
-  online_location_title: "Internet"
-  online_location_info: "La conferenza si svolge da remoto"
+  is_online_only: false
+  online_location: ""
+  online_location_title: ""
+  online_location_info: ""
 
   # menu and general params
-  menu_buy_tickets_label: "Compra il biglietto"
-  buy_tickets_url: "https://www.eventbrite.com/e/biglietti-cssday-2021-130900796807"
+  menu_buy_tickets_label: "Partecipa"
+  buy_tickets_url: "http://cssday-2023.eventbrite.it/"
   # additional info for microdata / schema.org
-  #md_city: "Verona"
-  #md_province: "VR"
-  #md_postal_code: "37138"
-  #md_address: "Via Longhena 42"
+  #md_city: "Faenza"
+  #md_province: "RA"
+  #md_postal_code: "48018"
+  #md_address: "Via Carlo Cesare Scaletta, 10, 48018 Faenza RA"
   organizer_url: "http://grusp.org/"
   # contact email
   contact_email: "cssday@grusp.org"
   # these are for the hero section
   title_pre: ""
-  title: "cssday Digital Edition"
-  city: "online"
-  date: 2021-04-15T10:00+02:00
+  title: "cssday 2023"
+  city: "Faenza"
+  date: 2023-03-31T09:30+02:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true
@@ -42,22 +42,27 @@ conference:
   update_visible: false
   update_is_warning: false
   update_warning_header: "Questo testo appare se l'update è impostato a *warning*. Potremmo sostituirlo con un'icona o altro 'segnale'"
-  update_title: "Important information"
-  update_description: "This is the description of such important information"
-  update_link_url: "https://google.com/"
-  update_link_label: "link to google, just for the demo"
+  update_title: "Aspettando cssday"
+  update_description: "4 appuntamenti live su YouTube, in collaborazione con FEVR, per presentare speaker e talk di questa edizione della conferenza: dal 4 Marzo ogni venerdì alle 19:30"
+  update_link_url: "https://www.youtube.com/playlist?list=PLWK9j6ps_unkouGhBgPbFL89_MFhT9GEN"
+  update_link_label: "Vai alla playlist su YouTube"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: false
+  cfp_open: true
   cfp_readmore_label: "Continua a leggere"
   cfp_open_label: "Proponi un talk entro il"
-  cfp_open_title: "Call For Papers aperta!"
-  cfp_deadline: 2021-01-31T23:59+01:00
-  cfp_register_label: "Invia la tua proposta"
+  cfp_open_title: "La Call For Paper è aperta!"
+  cfp_deadline: 2023-01-08T23:59+01:00
+  cfp_register_label: "Proponi un talk"
   cfp_register_aria_label: "Inviaci ora la tua proposta"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
-  geninfo_description: "cssday è la conferenza italiana dedicata ai CSS, uno degli strumenti più potenti, ed allo stesso tempo sottovalutati, del nuovo rinascimento del web.<br>Nata come track del jsday e dallo stesso team di Kerning, cssday vuole dare una dignità alla tecnologia che rende tutti i siti più leggibili, interattivi ed anche belli da vedere.<br> cssday 2021 si svolge online."
+  geninfo_description: "cssday 2023 è la 9° edizione della conferenza italiana dedicata ai CSS, uno degli strumenti più potenti, ed allo stesso tempo sottovalutati, del nuovo rinascimento del web.
+  </br> <br />Nata come track del <a href='https://www.jsday.it/'>jsday</a> e dallo stesso team di Kerning, cssday vuole dare una dignità alla tecnologia che rende tutti i siti più leggibili, interattivi ed anche belli da vedere.
+  </br> <br />cssday 2023 si svolge Venerdì 31 Marzo in modalità <b>ibrida</b>: di persona a Faenza e online."
+  # </br> <br />Oltre alla conferenza, quest'anno c'è un <a href='https://2022.cssday.it/workshop/tipografia_css.html'>workshop</a> dedicato alla Tipografia con i CSS, che si svolgerà <b>online</b> nei giorni 11, 12 e 13 Aprile 2022.
+  # </br> <br />E se ti interessano in particolare le tematiche relative alla User Experience, c'è una nuova conferenza per te: <a href='https://www.uxday.it/'>uxday</a> il 10 Giugno 2022 a Faenza!"
+
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
@@ -88,7 +93,7 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Informazioni riguardo la privacy policy di Mailchimp"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  speakers_visible: true
+  speakers_visible: false
   speakers_title: "Speaker"
   mcs_title: "MC"
   speaker_count_text:
@@ -105,7 +110,7 @@ conference:
     - "Metodologie"
   topics_payoff: "...e molto altro!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: true
+  workshop_visible: false
   workshops_title: "workshop"
   workshops_tickets_label: "Acquista i biglietti"
   workshops_readmore_label: "Continua a leggere"
@@ -117,28 +122,28 @@ conference:
   media_pic_3: ""
   media_pic_4: ""
   #   playlist: if true, the iframe will be created. if false, it will not
-  media_video_playlist: true
+  media_video_playlist: false
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
   media_video_is_youtube: true
   youtube_base_url: "https://www.youtube.com/embed/videoseries?list="
   # vimeo_base_url: "https://vimeo.com/channels/"
   # vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unnzawdRcS0h5O6if5f8mtCc"
+  youtube_playlist_id: "PLWK9j6ps_unkp5H3oUSzonh51Jze103Hc"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italiancssday"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  location_visible: false
-  location_name: "Hotel San Marco"
-  location_address: "Via Longhena 42, 37138 Verona (VE) Italy"
-  location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
-  location_maps_label: "Get directions"
-  location_readmore_label: "Read more"
+  location_visible: true
+  location_name: "Cinema Teatro Sarti"
+  location_address: "Via Carlo Cesare Scaletta, 10, 48018 Faenza RA"
+  location_maps_url: "https://goo.gl/maps/ufGrGJ8BzCaNQYaf8"
+  location_maps_label: "Vai a google maps"
+  location_readmore_label: "Altre info"
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
   sponsors_visible: true
-  sponsor_title_home: "Sponsor"
+  sponsor_title_home: "Grazie al supporto di"
   # this is for the Community partners section in home page
   community_partners: true
   community_partners_title: "Community partner"
@@ -164,12 +169,14 @@ conference:
     2018: "2018"
     2019: "2019"
     2020: "2020"
+    2021: "2021"
+    2022: "2022"
   past_editions_videos_pre: "Tutti i video delle passate edizioni sono disponibili su "
   past_editions_videos_vimeo_label: "Vimeo"
   past_editions_videos_mid: " e "
   past_editions_videos_youtube_label: "YouTube"
   past_editions_videos_post: "."
-  footer_copy_text: "è &copy; del Grusp e del suo fantastico team"
+  footer_copy_text: "è &copy; del GrUSP e del suo fantastico team"
   footer_contact_text: "Contattaci "
   footer_links_pre: "Puoi leggere la nostra "
   footer_links_privacy_link_label: "privacy policy"
