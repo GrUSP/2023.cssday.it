@@ -23,31 +23,37 @@ team:
   title: "Il team"
   intro: ""
   members:
+
+
     member_1:
-      name: "Francesco Fullone"
-      role: "troublemaker"
-      pic_filename: "fullo.jpg"
-    member_2:
-      name: "Giulia Tosato"
-      role: "event manager"
-      pic_filename: "giulia.jpg"
-    member_3:
       name: "Giovanna Ferrari"
       role: "sponsor management"
       pic_filename: "giovanna.jpg"
-    member_4:
+    member_2:
+      name: "Francesco Fullone"
+      role: "troublemaker"
+      pic_filename: "fullo.jpg"
+    member_3:
       name: "Matteo Guidotto"
       role: "comitato tecnico"
       pic_filename: "matteo-guidotto.jpg"
+    member_4:
+      name: "Lara Lombardi"
+      role: "marketing manager"
+      pic_filename: "lara.png"
     member_5:
+      name: "Giulia Tosato"
+      role: "event manager"
+      pic_filename: "giulia.jpg"
+    member_6:
       name: "Matteo Beccati"
       role: "GrUSP Board Member"
       pic_filename: "matteo.jpg"
-    member_6:
+    member_7:
       name: "Cesare D'Amico"
       role: "GrUSP Board Member"
       pic_filename: "cesare.jpg"
-    member_7:
+    member_8:
       name: "Daniel Londero"
       role: "GrUSP Board Member"
       pic_filename: "daniel.jpg"
