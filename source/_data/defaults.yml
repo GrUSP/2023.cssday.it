@@ -117,19 +117,19 @@ conference:
   workshops_register_label: "Registrati"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
   media_visible: true
-  media_pic_1: ""
-  media_pic_2: ""
-  media_pic_3: ""
-  media_pic_4: ""
+  media_pic_1: "cssday2022_1.jpeg"
+  media_pic_2: "cssday2022_2.jpg"
+  media_pic_3: "cssday2022_3.jpg"
+  media_pic_4: "cssday2022_5.jpg"
   #   playlist: if true, the iframe will be created. if false, it will not
-  media_video_playlist: false
+  media_video_playlist: true
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
   media_video_is_youtube: true
   youtube_base_url: "https://www.youtube.com/embed/videoseries?list="
   # vimeo_base_url: "https://vimeo.com/channels/"
   # vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unkp5H3oUSzonh51Jze103Hc"
+  youtube_playlist_id: "PLWK9j6ps_unlfKcZuJlbAMyuqn55WBP2-"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italiancssday"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
