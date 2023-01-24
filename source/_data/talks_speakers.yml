@@ -4,18 +4,129 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
+speaker_1: &massimo
+  speaker_in_speaker_lists: true
+  speaker_name: Massimo Artizzu
+  speaker_pic_filename: massimo-artizzu.png
+  speaker_role: "Web Dev Manager @ Antreem"
+  speaker_bio: "CSS Zen Garden mi colpì sulla via di Damasco ai tempi di quando stavo imparando a sviluppare per il web. Da allora, il CSS ha fatto passi da gigante, ma cercare di capirne la potenza è sempre stato un mio pallino."
+  speaker_github_url: "https://github.com/MaxArt2501"
+  speaker_twitter_url: "https://twitter.com/MaxArt2501"
+  speaker_linkedin_url: "https://www.linkedin.com/in/massimoartizzu/"
+  is_mc: false
+
+speaker_2: &mauro
+  speaker_in_speaker_lists: true
+  speaker_name: Mauro Bartolomeoli
+  speaker_pic_filename: mauro-bartolomeoli.png
+  speaker_role: "Senior Developer @ doubleloop"
+  speaker_bio: "Full-stack senior developer, appassionato alle tecnologie frontend. Amante di Javascript fin dal principio, ho lavorato e contribuito a molti progetti opensource, specialmente nell'ambito del web mapping.
+  Mi sono recentemente interessato all'evoluzione delle tecnologie web, in particolare a come nuove funzionalità in CSS ed HTML possano rendere inutile l'uso di Javascript in alcuni contesti, rendendomi conto dell'importanza di conoscere la piattaforma web e come sfruttarla al meglio."
+  speaker_github_url: "https://github.com/mbarto"
+  speaker_linkedin_url: "https://www.linkedin.com/in/mauro-bartolomeoli-a156182"
+  is_mc: false
+
+speaker_3: &diana
+  speaker_in_speaker_lists: true
+  speaker_name: Diana Bernabei
+  speaker_pic_filename: diana-bernabei.png
+  speaker_role: "Frontend Developer & Accessibility Consultant"
+  speaker_bio: "Sviluppatrice frontend e consulente di accessibilità. Divido il mio tempo tra sviluppare in Js/React e aiutare le aziende a rendere i loro siti più accessibili.
+  Dal 2017 sono WomenTechmakers Ambassador per promuovere la partecipazione femminile nel mondo STEM."
+  speaker_github_url: "https://github.com/dianaberna"
+  speaker_linkedin_url: "https://www.linkedin.com/in/dianabernabei/"
+  is_mc: false
+
+speaker_4: &luca
+  speaker_in_speaker_lists: true
+  speaker_name: Luca Del Puppo
+  speaker_pic_filename: luca-delpuppo.png
+  speaker_role: "FullStack Developer @ Claranet"
+  speaker_bio: "Full Stack Developer. Appassionato di Agile e amante di tutto il mondo Js! Nel tempo libero pratica Trail Running e gli piace studiare nuove tecnologie. Quando può va nelle sue amate Dolomiti per vedere i loro spettacolari panorami senza mai dimenticarmi di fare una sosta in rifugio per gustarsi una bella fetta di strudel."
+  speaker_github_url: "https://github.com/Puppo/"
+  speaker_twitter_url: "https://twitter.com/puppo92"
+  speaker_linkedin_url: "https://www.linkedin.com/in/lucadelpuppo/"
+  is_mc: false
+
+speaker_5: &davide
+  speaker_in_speaker_lists: true
+  speaker_name: Davide Di Pumpo
+  speaker_pic_filename: davide-dipumpo.png
+  speaker_role: "Design Technologist"
+  speaker_bio: "Mi occupo di progettare e sviluppare siti e web application. C'ho una fissa da papà castoro."
+  speaker_github_url: "https://github.com/MakhBeth	"
+  speaker_twitter_url: "https://twitter.com/makhbeth"
+  speaker_linkedin_url: "https://www.linkedin.com/in/davide-di-pumpo/"
+  is_mc: false
+
+speaker_6: &giulia
+  speaker_in_speaker_lists: true
+  speaker_name: Giulia Laco
+  speaker_pic_filename: giulia-laco.png
+  speaker_role: "Web designer/dev @ WebMatter"
+  speaker_bio: "Formazione umanistica mescolata alla Logica matematica, la Linguistica, l’Intelligenza Artificiale e la Filosofia del Linguaggio. Attratta dal Web design fin dagli esordi, è stata webmaster in azienda nell’altro secolo e Web designer/developer in questo, attratta ciclicamente da nuove discipline da qualche anno cerca di ispirare la comunità dei web designer all’utilizzo consapevole della tipografia per il web."
+  speaker_twitter_url: "https://twitter.com/webmatter_it"
+  speaker_linkedin_url: "https://www.linkedin.com/in/giulialaco/"
+  is_mc: false
+
+speaker_7: &lorenzo-pieri
+  speaker_in_speaker_lists: true
+  speaker_name: Lorenzo Pieri
+  speaker_pic_filename: lorenzo-pieri.png
+  speaker_role: "Sr Software Engineer @ Antidote Technologies Inc"
+  speaker_bio: "Non è mai facile descrivere se stessi, soprattutto quando ci si interessa di così tanti argomenti e campi diversi, e credo che questo dica qualcosa su chi sono, dopotutto. Trovo divertente e simpatico insegnare argomenti difficili attraverso metodi e storie e sembra che le persone si divertano anche mentre lo faccio.
+  Credo nell'unione tra scienza e valori umani (leggi divertimento) e spesso lavoro e partecipo a organizzazioni e progetti no-profit che mirano a portare la cultura e la conoscenza scientifica a chi è interessato ma anche a chi si è disinteressato a queste materie.
+  Unitevi a me nello scoprire il meraviglioso mondo della tecnologia!"
+  speaker_github_url: "https://github.com/404answernotfound/404answernotfound"
+  speaker_twitter_url: "https://twitter.com/404answnotfound"
+  speaker_linkedin_url: "https://www.linkedin.com/in/lorenzopieri/"
+  is_mc: false
+
+speaker_8: &eleonora
+  speaker_in_speaker_lists: true
+  speaker_name: Eleonora Rocchi
+  speaker_pic_filename: eleonora-rocchi.png
+  speaker_role: "Team leader @ P-LAB"
+  speaker_bio: "Eleonora è una sviluppatrice web e mobile, con una personale predilezione per il front-end. Team leader per l'area di ricerca e sviluppo, non si tira mai indietro quando c'è la possibilità di sperimentare, imparare e condividere le sue scoperte. Ha da poco intrapreso una nuova avventura tra le Women Techmaker Ambassador."
+  speaker_github_url: "https://github.com/eleonorarocchi"
+  speaker_twitter_url: "https://twitter.com/eleonora_rocchi"
+  speaker_linkedin_url: "https://www.linkedin.com/in/eleonora-rocchi"
+  is_mc: false
+
+speaker_9: &lorenzo-spinelli
+  speaker_in_speaker_lists: true
+  speaker_name: Lorenzo Spinelli
+  speaker_pic_filename: lorenzo-spinelli.png
+  speaker_role: "Co-founder @ firenze.dev"
+  speaker_bio: "Lorenzo è uno sviluppatore full-stack web3 e mentor presso Register.it. Trascorre le sue giornate scrivendo codice, aiutando gli altri e imparando cose nuove. Nel tempo libero, è coinvolto nella community firenze.dev di cui è co-fondatore. Gli piace molto imparare cose nuove e raccontarle agli altri. È uno sviluppatore entusiasta di web3, blockchain, smart contract e advocate della blockchain Polygon."
+  speaker_github_url: "https://github.com/Spyna"
+  speaker_twitter_url: "https://twitter.com/spinaLorenzo"
+  speaker_linkedin_url: "https://www.linkedin.com/in/lorenzospinelli/"
+  is_mc: false
+
+speaker_10: &matteo
+  speaker_in_speaker_lists: true
+  speaker_name: Matteo Guidotto
+  speaker_pic_filename: matteo-guidotto.png
+  speaker_role: "MASTER OF CEREMONIES"
   speaker_bio: ""
   speaker_github_url: ""
   speaker_twitter_url: ""
-  is_mc: false
+  speaker_linkedin_url: ""
+  is_mc: true
 
 speakers:
-  speaker_1: *speaker
+  speaker_1: *massimo
+  speaker_2: *mauro
+  speaker_3: *diana
+  speaker_4: *luca
+  speaker_5: *davide
+  speaker_6: *giulia
+  speaker_7: *lorenzo-pieri
+  speaker_8: *eleonora
+  speaker_9: *lorenzo-spinelli
+  speaker_10: *matteo
+
 
 tracks:
   track_1: &track_1
@@ -61,23 +172,118 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
-      titolotalk1:
+      container:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
+        start_datetime:
+        end_datetime:
+        talk_title: "Container Queries: la rivoluzione (in)attesa di CSS"
+        talk_description: "Da tempo volevamo la possibilità di applicare media queries a dei singoli contenitori e non a tutta la pagina, per risolvere i nostri problemi di stilizzazione di componenti e widget.
+        Finalmente, dopo tanti rinvii, questa possibililtà è arrivata. Senza contare le altre novità meno attese che si stanno aggiungendo, e che possono cambiare radicalmente il modo in cui applichiamo, concepiamo e sviluppiamo in CSS."
         talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *massimo
+      javascript:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Si può fare: cose che credevi impossibili senza l'uso di Javascript"
+        talk_description: "CSS è un linguaggio in continua evoluzione.
+        L'introduzione di nuovi selettori e regole nei browser consente a volte di implementare funzionalità che normalmente richiedevano l'uso di Javascript, usando solamente CSS ed HTML.
+        In questo talk presenterò una serie di sfide e mostrerò come sia possibile risolverle senza ricorrere a Javascript.
+        Con questa scusa parlerò di alcune nuove potenti funzionalità di CSS e il loro supporto da parte dei moderni browser."
+        talk_video_url:
+        speakers:
+          speaker_1: *mauro
+      accessibilità:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "CSS e accessibilità web, una vecchia amicizia "
+        talk_description: "È così bello realizzare e sviluppare design accattivanti che a volte ci si dimentica che potrebbero non essere user friendly, o peggio ancora potrebbero non essere accessibili.
+        Dai colori al focus, dal nascondere elementi a… non scrivere CSS!
+        Vedremo insieme che ci sono diverse regole che basta conoscere, e ricordare, per rendere i nostri fogli di stile a prova di accessibilità."
+        talk_video_url:
+        speakers:
+          speaker_1: *diana
+      design-system:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Design System for Software Development Team"
+        talk_description: "Material UI, Ant, Bootstrap, Bulma sono solo alcune delle possibili librerie che possiamo scegliere per il look and feel del nostro nuovo progetto.
+        Ma possiamo considerare queste librerie il design system delle nostre applicazioni? Possiamo permetterci di far decidere agli altri quale sia il nostro Design System?
+        Cerchiamo di vederci più chiaro trovando una soluzione che semplifichi la comunicazione tra noi e il nostro Business e che possa aiutare tutti i nostri utenti a comprendere al meglio il valore del nostro prodotto."
+        talk_video_url:
+        speakers:
+          speaker_1: *luca
+      stranamore:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Il dottor Stranamore - Ovvero: come ho imparato a non preoccuparmi e ad amare la cascata"
+        talk_description: "Viviamo in un costante allarme bomba! Una guerra fredda nell'attesa che qualcosa di brutto accada al prodotto su cui stiamo lavorando, alla landing che abbiamo appena messo su o al design system nuovo di pacca.
+        Ma quest'offensiva belligerante invece, non si verifica quasi mai. E quando si verifica più che una bomba é un petardo. Un minicicciolo!
+        Perché abbiamo dunque il sacro terrore che questa bomba fatta di selettori, proprietà ignote e nesting folli, ci esploda in faccia?
+        Perché paghiamo lo scotto di UX, performance e automutilazioni spontanee ogni volta che scriviamo due righe di CSS?
+        Fermiamo questa distruzione mutua assicurata, sedendoci insieme ad un tavolo e capendo come in 15 anni di lavoro, alla fine la paura di tutto questo, forse, probabilmente o almeno nel mio caso è totalmente ingiustificata!"
+        talk_video_url:
+        speakers:
+          speaker_1: *davide
+      tipografia:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Tipografia web: dall’accessibilità alla leggibilità"
+        talk_description: "Rispettare le linee guida per l’accessibilità è un buon inizio, ma i fattori che condizionano l’esperienza di lettura dei testi sono numerosi e intrecciati fra loro: dai meccanismi fisici della lettura, a quelli cognitivi di elaborazione, all’attenzione.
+        Progettare oggi siti con testi facilmente (e piacevolmente) leggibili sui vari tipi di schermi, che funzionino bene per ciascun lettore e in situazioni varie è una sfida contemporanea che si sta affinando.
+        E con essa anche gli strumenti a nostra disposizione: proprietà CSS più aggiornate, unità di misura più appropriate, la tecnologia dei font variabili, soluzioni varie per il dimensionamento dinamico: dalla tipografia responsiva a quella fluida fino a quella intrinseca.
+        È bene usare questi strumenti avendo in mente che l’ultima parola va comunque lasciata all'utente."
+        talk_video_url:
+        speakers:
+          speaker_1: *giulia
+      sostenibilità:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Sustainable me. A tale of good design"
+        talk_description: "È il 2023 e si parla ovunque di energia pulita, rinnovabili, bitcoin farms, accordi sul clima e cambiamenti climatici, ma avete mai pensato al peso che una singola applicazione client server può avere su questa guerra climatica che tutti stiamo combattendo?
+        È ora di riconoscere che non tutti i problemi hanno le dimensioni di un elefante e che possiamo cambiare il mondo anche con i più piccoli passi.
+        Unitevi a me e scoprite come Internet sia tra i produttori della maggior parte della CO2 rilasciata ogni anno. Combattiamo il cambiamento climatico, una div alla volta."
+        talk_video_url:
+        speakers:
+          speaker_1: *lorenzo-pieri
+      trigonometria:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Trip on trig: alla scoperta della trigonometria"
+        talk_description: "Era il febbraio 2019 quando le funzioni di trigonometria sono state approvate in una riunione del gruppo di lavoro CSS del World Wide Web Consortium (W3C).
+        Ora i browser iniziano a supportare questa novità, permettendoci di utilizzare direttamente queste funzioni senza appesantire i progetti con librerie javascript e senza l'obbligo di ricorrere a preprocessori.
+        Faremo un viaggio alla scoperta della trigonometria del CSS, con una panoramica sulle singole funzioni, sui browser che le supportano e le supporteranno a breve ed esempi concreti di utilizzo per il disegno di forme e animazioni."
+        talk_video_url:
+        speakers:
+          speaker_1: *eleonora
+      usabilità:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Testare l'usabilità"
+        talk_description: "Come si riesce a mettere d’accordo il capo del marketing che vuole il pulsante rosso e quello degli UX che lo vuole verde?
+        I designer stanno discutendo del colore delle tende, ma nessuno si è accorto che mancano le finestre?
+        La vostra applicazione può funzionare come è stata progettata, ma funziona per l'utente?
+        Se anche tu hai avuto questi dubbi, è probabile che tu abbia bisogno di eseguire dei test di usabilità.
+        Non sto parlando dei 'soliti pipponi' sull’usabilità, sto parlando di come eliminare le congetture, in modo da sapere esattamente come progettare e migliorare un sito web.
+        In questo talk vedrai come le intuizioni degli utenti possano trasformare una buona app in una grande esperienza d'uso. Ed anche come aumentare il fatturato grazie ai test di usabilità, senza spendere centinaia di euro o mesi di lavoro.
+        E alla fine dirai: perchè non l'abbiamo fatto prima?"
+        talk_video_url:
+        speakers:
+          speaker_1: *lorenzo-spinelli
