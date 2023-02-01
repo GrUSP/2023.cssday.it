@@ -28,11 +28,11 @@ silver:
     name: "extera"
     logo_filename: "extera.svg"
     site_url: "https://www.extera.com/"
-# bronze:
-#   sponsor2:
-#     name: "stickermule"
-#     logo_filename: "stickermule.svg"
-#     site_url: "https://mule.to/p2gc"
+bronze:
+  sponsor4:
+    name: "Sticker Mule"
+    logo_filename: "stickermule.svg"
+    site_url: "https://www.stickermule.com/it/uses/laptop-stickers"
 # diversity:
 #   sponsor1:
 #     name: "S"
