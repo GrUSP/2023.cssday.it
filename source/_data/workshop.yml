@@ -4,98 +4,92 @@ summary_page_button_label: "Torna alla pagina workshop"
 # image credits (l'esempio è per la hero del CSS Day!)
 workshop_img_credits:
 
-# workshops:
-#   font_variabili:
-#     ws_id: font_variabili
-#     is_external: false
-#     page_uri: "workshop/font_variabili.html"
-#     page_title: "Tipografia web e font variabili"
-#     workshop_title: "Tipografia web e font variabili"
-#     ticket_url: "https://cssday-2021.eventbrite.com"
-#     ticket_label: "Partecipa"
-#     location_title: "Dove"
-#     # location: "Verona"
-#     online_location: "online"
-#     # location_name: "Hotel San Marco"
-#     # location_name: "The Internet"
-#     # location_contact_phone: "+045569011"
-#     # location_contact_email: "sanmarco@sanmarco.vr.it"
-#     # location_contact_url: "https://www.sanmarco.vr.it/"
-#     # location_address: "Via Longhena 42, 37138 Verona (VE) Italy"
-#     # location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
-#     # location_maps_label: "Get directions"
-#     # location_additional_info: "L'hotel offre tariffe scontate ai partecipanti ai workshop, sia per camere singole sia per camere doppie."
-#     location_additional_info: "Il workshop si svolge online, in aula virtuale"
-#     whatandwhen_title: "Quando"
-#     # whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
-#     whatandwhen_additional_info: "8 ore, divise in due sessioni: Martedì 16 e Mercoledì 17 Marzo 2021, dalle 9 alle 13."
-#     date: 2021-03-16T09:00+01:00
-#     end_date: 2021-03-17T13:00+01:00
-#     date_text:
-#     language_title: "Lingua"
-#     language: "italiano"
-#     # language_ext: "Lingua: italiano"
-#     language_additional_info: ""
-#     # collab: "Workshop realizzato in collaborazione con Giulia Laco"
-#     description: "Progettare un sistema tipografico per siti web sfruttando i vantaggi del formato OpenType 1.8"
-#     description_long:
-#       "<strong> Progettare un sistema tipografico per siti web sfruttando i vantaggi del formato OpenType 1.8 </strong>
-#       <br>
-#       <br  /> I font variabili rappresentano una grossa novità per la tipografia dei siti web e godono oggi di un buon supporto a livello dei browser. Il formato rappresenta inoltre un’opportunità di miglioramento delle performance dei web font e un sorprendente ampliamento delle possibilità tipografiche. I siti web sono strutture complesse in cui il testo compare con diverse funzioni: dal corpo del testo, ai titoli, ai menù di navigazione e non solo. Ogni parte merita un diverso trattamento tipografico per esaltare al contempo l'architettura del sito, la struttura di pagina e la natura stessa del contenuto. I font variabili sembrano proprio venirci in aiuto. Per sfruttarne appieno le potenzialità, occorre capirne le ragioni storiche e immaginarne l’utilizzo creativo nelle interfacce digitali, nell’animazione del testo, nel design fluido, fino all’espressione del brand in modi nuovi, prima impensabili.
-#       <br>
-#       <br  /> Nel workshop verranno affrontati sia aspetti teorici che pratici.
-#       <br>
-#       <br  /> <strong> Cosa ottieni frequentando questo workshop: </strong>
-#       <ul>
-#         <li>• Conoscenza del formato dei font variabili e collocazione nella storia tipografica</li>
-#         <li>• Capacità di corretta implementazione dei font variabili e dei fallback font con consapevolezza delle tematiche legate al web font loading</li>
-#         <li>• Consapevolezza di cosa si acquista quando si compera un font</li>
-#         <li>• Spunti per la creatività in base a ciò che un dato font prevede</li!>
-#       </ul>
-#       <br>"
-#     # video trailer?
-#     trailer: false
-#     trailer_url: "https://player.vimeo.com/video/352012164"
-#     # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
-#     teacher_title: "Docente"
-#     teachers:
-#       teacher_1:
-#         teacher_name: "Giulia Laco"
-#         teacher_bio: "Formazione umanistica mescolata alla Logica matematica, la Linguistica, l’Intelligenza Artificiale e la Filosofia del Linguaggio.
-#           Attratta dal Web design fin dagli esordi, sono stata webmaster in azienda nell’altro secolo e Web designer/developer in questo, appassionandomi ciclicamente a nuove discipline: Web Marketing, Architettura dell’Informazione, SEO, UX e Web Typography – per citarne alcune.
-#           Da qualche anno cerco di ispirare la comunità dei web designer all’utilizzo consapevole della tipografia per il web."
-#         pic_filename: "giulia-laco.jpg"
-#         teacher_role: "Web designer/developer"
-#         teacher_org: "WebMatter"
-#     # teacher_2:
-#       #  teacher_name: ""
-#       # teacher_bio: ""
-#       # pic_filename: ""
-#       # teacher_role: ""
-#       # teacher_org: ""
-#     topics_title: "Argomenti trattati"
-#     topics:
-#       - "Web font, font di sistema, UI system font"
-#       - "Formati di font"
-#       - "Direttiva CSS @font-face"
-#       - "Il caricamento dei font, FOIT/FOUT"
-#       - "La proprietà font-display"
-#       - "Fallback font e font-stack"
-#       - "I font variabili"
-#       - "Gli assi di variazione"
-#       - "Proprietà CSS (basso livello vs. CSS4)"
-#       - "Font-size (unità di misura)"
-#       - "Responsive Web Typography vs. Fluid Web Typography"
-#       - "Typesetting del paragrafo perfetto"
-#       - "Anatomia dei caratteri"
-#       - "Classificazione"
-#       - "Font-pairing"
-#       - "Testo e funzione"
-#     addressees_title: "A chi è rivolto"
-#     addressees_description: "Il corso è rivolto a designer, sviluppatori, product owner e manager che vogliano applicare font variabili e principi di tipografia al proprio prodotto o progetto."
-#     requirements_title: "Requisiti di partecipazione"
-#     requirements_description: "Per partecipare è necessaria una conoscenza base di CSS e HTML. <br /> Ti serviranno inoltre un editor di codice e il browser (consigliata: ultima versione di Firefox) <br /> Verranno suggeriti prima del corso eventuali altri strumenti/configurazioni utili."
-#     useful_info_title: "Informazioni utili"
-#     useful_info_description: "Il workshop si svolge online e dura 8 ore, divise in due mattine: Martedì 16 e Mercoledì 17 Marzo 2021, dalle 9 alle 13."
-#     # CTA
-#     cta_title: "Hurry up. There are only a few available places!"
+workshops:
+  figma:
+    ws_id: figma
+    is_external: false
+    page_uri: "workshop/figma.html"
+    page_title: "Fai il salto a Figma!"
+    workshop_title: "Fai il salto a Figma!"
+    ticket_url: "https://cssday-2023.eventbrite.com"
+    ticket_label: "Partecipa"
+    location_title: "Dove"
+    location: "Faenza"
+   # online_location: "online"
+    location_name: "Faventia Sales (Complesso Ex Salesiani)"
+    # location_name: "The Internet"
+    # location_contact_phone: "+045569011"
+    # location_contact_email: "sanmarco@sanmarco.vr.it"
+    # location_contact_url: "https://www.sanmarco.vr.it/"
+    location_address: "Via San Giovanni Bosco 1, Faenza"
+    location_maps_url: "https://goo.gl/maps/UmD42mCcBRPiXzwd8"
+    location_maps_label: "Dove"
+    # location_additional_info: "L'hotel offre tariffe scontate ai partecipanti ai workshop, sia per camere singole sia per camere doppie."
+    # location_additional_info: "Il workshop si svolge online, in aula virtuale"
+    whatandwhen_title: "Quando"
+    whatandwhen_additional_info: "Giovedì 30 Marzo 2023, dalle 9:30 alle 17:30. Pausa caffè e pranzo inclusi."
+    # whatandwhen_additional_info: "additional"
+    date: 2023-03-30T09:30+01:00
+    end_date: 2023-03-30T18:00+01:00
+    date_text: "Giovedì 30 Marzo 2023, dalle 9:30 alle 17:30"
+    language_title: "Lingua"
+    language: "italiano"
+    language_ext: ""
+    language_additional_info: ""
+    collab: "Workshop realizzato in collaborazione con Belka"
+    description: "Impara le funzioni avanzate con chi l’ha insegnato alle migliori aziende tech"
+    description_long:
+      "<strong>Impara le funzioni avanzate con chi l’ha insegnato alle migliori aziende tech</strong>
+      <br><br  /> Hand-off sofferti col team di sviluppo? Mille varianti di bottoni? Layout che non stanno piedi?
+      Ci siamo passati anche noi in Belka, ma col tempo abbiamo imparato. Per questo crediamo che Figma sia ormai indispensabile, e ti racconteremo perchè.
+      Come quella volta che abbiamo aiutato alcuni delle migliori scaleup italiane come Fatture in Cloud, Spiagge.it, o Subito.it, attraverso i nostri servizi di UX/UI design, design system e formazione.
+      <br><br  />Figma ti permette di un’accelerata al tuo workflow, migliorare le prestazioni del tuo team e sentirti dire “grazie” da sviluppo quando farai il prossimo handoff.
+      E se non hai mai sentito parlare di autolayout, componenti, layer property e booleane e vorresti imparare a usarli, beh, è proprio il caso che ti iscrivi!
+      <br><br  /> "
+    # video trailer?
+    trailer: false
+    trailer_url: "https://player.vimeo.com/video/352012164"
+    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+    teacher_title: "Insegnanti"
+    teachers:
+      teacher_1:
+        teacher_name: "Mattia Marinangeli"
+        teacher_bio: "Mattia ha diversi anni di esperienza come product designer in varie agenzie digitali, aziende e startup. Attualmente collabora con Belka su progetti di Design System come product designer, consulente e formatore. Designer del FantaSanremo (sì raga, proprio quello), è appassionato da sempre di musica, sport di montagna e da tutto ciò che è visivo. Marchigiano DOC, sa anche far ridere."
+        pic_filename: "Mattia-Marinangeli.jpeg"
+        teacher_role: "Product designer"
+        teacher_org: "Belka"
+      teacher_2:
+        teacher_name: "Eugenia Valentini"
+        teacher_bio: "Filosofa per caso, relational designer diplomata e product designer per scelta. In Belka dal 2021, non ha ancora capito perchè finisce sempre in progetti iper-complessi. Ama fare domande scomode. Da vera nomade digitale, lavora ogni mese da un posto diverso. Di solito le sue riunioni iniziano con un 'Oggi da dove ci chiami?'"
+        pic_filename: "Eugenia-Valentini.jpeg"
+        teacher_role: "Product designer"
+        teacher_org: "Belka"
+    topics_title: "Argomenti trattati"
+    topics:
+      - "Dai, rompiamo il ghiaccio: i partecipanti si presentano"
+      - "Ma perchè Figma? Cosa non offrono gli altri software, consigli per supportare il passaggio in azienda da parte di figure manageriali"
+      - "Introduzione e panoramica: interfaccia e funzioni base di Figma, gli strumenti essenziali per conoscere il tool e iniziare a lavorare + piccole esercitazioni"
+      - "Progettiamo su Figma e ci sporchiamo le mani 1: l’importanza di disegnare in autolayout e perchè l’AL è developer-friendly, advanced settings + piccole esercitazioni"
+      - "Progettiamo su Figma e ci risporchiamo le mani 2: gli stili, le componenti e le sue varianti + esercitazione"
+      - "Reverse engineering (costruiamo dalla fine): su esempio della landing page di un sito, la ricreiamo partendo dalle sezioni + esercitazione"
+      - "Plugin & Community: l’universo dei plugin e l’importanza della Community (spoiler: non solo per fare nuove amicizie)"
+      - "Momento di feedback finale (sì, come nei progetti di Belka, facciamo una retrospettiva per capire come è andata)"
+    addressees_title: "A chi è rivolto"
+    addressees_description: "Il workshop è rivolto a UX/UI designer e product designer con almeno 1 anno di esperienza professionale che lavorano all’interno di team di aziende tech dove ancora non si è passati a Figma o che vogliono sfruttare tutte le potenzialità avanzate di questo software. Sì perchè diciamolo: quanto ancora volete lavorare senza Figma?"
+    requirements_title: "Requisiti di partecipazione"
+    requirements_description: "<bold>Il livello di questo corso è intermedio-avanzato.</bold>
+    <br>È necessario:
+    <ul><li>Avere almeno 1 anno di esperienza lavorativa;</li>
+    <li>Conoscere gli strumenti di base di software affini (Sketch, Adobe XD, Illustrator, ecc.; la conoscenza di Elementor o Webflow è un plus);</li>
+    <li>Avere un portatile.</li></ul>
+    <br>
+    Qualche giorno prima del corso ti spiegheremo come installare Figma (è gratis!) e prepararti al meglio per il workshop. Vogliamo partecipanti felici."
+    useful_info_title: "Cosa ottieni partecipando"
+    useful_info_description: "<ul>
+    <li>Ti spieghiamo passo a passo come passare a Figma senza lacrime e convincere anche la tua azienda e/o il tuo team a farlo. perchè davvero non ne potrai più fare a meno.</li>
+    <li>No fuffa, molte esercitazioni pratiche. Ti facciamo vedere come facciamo ogni giorni coi nostri clienti. Spazio per tutte le tue domande.</li>
+    <li>I consigli pro dall’esperienza pluriennale di Belka con le migliori aziende tech italiane.</li>
+    <li>Ci assicuriamo di avere un gruppo selezionato di partecipanti per partire con un livello comune e coi quali, perchè no, stringere nuove amicizie. Belka crede nelle relazioni magiche.</li>
+    </ul>"
+    # CTA
+    cta_title: "Acquista il biglietto per partecipare"
