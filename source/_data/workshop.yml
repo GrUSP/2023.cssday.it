@@ -36,14 +36,14 @@ workshops:
     language: "italiano"
     language_ext: ""
     language_additional_info: ""
-    collab: "Workshop realizzato in collaborazione con Belka"
+    collab: "Workshop realizzato in collaborazione con <a href='https://www.belkadigital.com/'>Belka</a>"
     description: "Impara le funzioni avanzate con chi l’ha insegnato alle migliori aziende tech"
     description_long:
       "<strong>Impara le funzioni avanzate con chi l’ha insegnato alle migliori aziende tech</strong>
       <br><br  /> Hand-off sofferti col team di sviluppo? Mille varianti di bottoni? Layout che non stanno piedi?
-      Ci siamo passati anche noi in Belka, ma col tempo abbiamo imparato. Per questo crediamo che Figma sia ormai indispensabile, e ti racconteremo perchè.
-      Come quella volta che abbiamo aiutato alcuni delle migliori scaleup italiane come Fatture in Cloud, Spiagge.it, o Subito.it, attraverso i nostri servizi di UX/UI design, design system e formazione.
-      <br><br  />Figma ti permette di un’accelerata al tuo workflow, migliorare le prestazioni del tuo team e sentirti dire “grazie” da sviluppo quando farai il prossimo handoff.
+      Ci siamo passati anche noi in Belka, ma col tempo abbiamo imparato. Per questo crediamo che <a href='https://www.figma.com/'>Figma</a> sia ormai indispensabile, e ti racconteremo perchè.
+      Come quella volta che abbiamo aiutato alcuni delle migliori scaleup italiane come <a href='https://www.belkadigital.com/fatture-in-cloud'>Fatture in Cloud</a>, <a href='https://www.belkadigital.com/case-study-spiagge'>Spiagge.it</a>, o <a href='https://www.belkadigital.com/design-system-subito'>Subito.it</a>, attraverso i nostri servizi di UX/UI design, design system e sviluppo.
+      <br><br  />Figma ti permette di dare un’accelerata al tuo workflow, migliorare le prestazioni del tuo team e sentirti dire “grazie” da sviluppo quando farai il prossimo handoff.
       E se non hai mai sentito parlare di autolayout, componenti, layer property e booleane e vorresti imparare a usarli, beh, è proprio il caso che ti iscrivi!
       <br><br  /> "
     # video trailer?
@@ -54,42 +54,42 @@ workshops:
     teachers:
       teacher_1:
         teacher_name: "Mattia Marinangeli"
-        teacher_bio: "Mattia ha diversi anni di esperienza come product designer in varie agenzie digitali, aziende e startup. Attualmente collabora con Belka su progetti di Design System come product designer, consulente e formatore. Designer del FantaSanremo (sì raga, proprio quello), è appassionato da sempre di musica, sport di montagna e da tutto ciò che è visivo. Marchigiano DOC, sa anche far ridere."
+        teacher_bio: "<a href='https://www.linkedin.com/in/mattiamarinangeli/''>Mattia</a> ha diversi anni di esperienza come product designer in varie agenzie digitali, aziende e startup. Attualmente collabora con Belka su progetti di Design System come product designer, consulente e formatore. Designer del FantaSanremo (sì raga, proprio quello), è appassionato da sempre di musica, sport di montagna e da tutto ciò che è visivo. Marchigiano DOC, sa anche far ridere."
         pic_filename: "Mattia-Marinangeli.jpeg"
         teacher_role: "Product designer"
         teacher_org: "Belka"
       teacher_2:
         teacher_name: "Eugenia Valentini"
-        teacher_bio: "Filosofa per caso, relational designer diplomata e product designer per scelta. In Belka dal 2021, non ha ancora capito perchè finisce sempre in progetti iper-complessi. Ama fare domande scomode. Da vera nomade digitale, lavora ogni mese da un posto diverso. Di solito le sue riunioni iniziano con un 'Oggi da dove ci chiami?'"
+        teacher_bio: "Filosofa per caso, relational designer diplomata e product designer per scelta. In Belka dal 2021, <a href='https://www.linkedin.com/in/eugenia-valentini-design/'>Eugenia</a> non ha ancora capito perchè finisce sempre in progetti iper-complessi. Ama fare domande scomode. Da vera nomade digitale, lavora ogni mese da un posto diverso. Di solito le sue riunioni iniziano con un 'Oggi da dove ci chiami?'"
         pic_filename: "Eugenia-Valentini.jpeg"
         teacher_role: "Product designer"
         teacher_org: "Belka"
     topics_title: "Argomenti trattati"
     topics:
       - "Dai, rompiamo il ghiaccio: i partecipanti si presentano"
-      - "Ma perchè Figma? Cosa non offrono gli altri software, consigli per supportare il passaggio in azienda da parte di figure manageriali"
+      - "Ma perchè Figma? Cosa non offrono gli altri software, consigli per supportare il passaggio in azienda a Figma da parte di figure manageriali"
       - "Introduzione e panoramica: interfaccia e funzioni base di Figma, gli strumenti essenziali per conoscere il tool e iniziare a lavorare + piccole esercitazioni"
-      - "Progettiamo su Figma e ci sporchiamo le mani 1: l’importanza di disegnare in autolayout e perchè l’AL è developer-friendly, advanced settings + piccole esercitazioni"
+      - "Progettiamo su Figma e ci sporchiamo le mani 1: l’importanza di disegnare in autolayout e perchè è developer-friendly, advanced settings + piccole esercitazioni"
       - "Progettiamo su Figma e ci risporchiamo le mani 2: gli stili, le componenti e le sue varianti + esercitazione"
       - "Reverse engineering (costruiamo dalla fine): su esempio della landing page di un sito, la ricreiamo partendo dalle sezioni + esercitazione"
       - "Plugin & Community: l’universo dei plugin e l’importanza della Community (spoiler: non solo per fare nuove amicizie)"
       - "Momento di feedback finale (sì, come nei progetti di Belka, facciamo una retrospettiva per capire come è andata)"
     addressees_title: "A chi è rivolto"
-    addressees_description: "Il workshop è rivolto a UX/UI designer e product designer con almeno 1 anno di esperienza professionale che lavorano all’interno di team di aziende tech dove ancora non si è passati a Figma o che vogliono sfruttare tutte le potenzialità avanzate di questo software. Sì perchè diciamolo: quanto ancora volete lavorare senza Figma?"
+    addressees_description: "Il workshop è rivolto a UX/UI designer e product designer con almeno 1 anno di esperienza professionale che lavorano all’interno di team di aziende dove ancora non si è passati a Figma o che vogliono sfruttare tutte le potenzialità avanzate di questo software. Sì perchè diciamolo: quanto ancora volete lavorare senza Figma?"
     requirements_title: "Requisiti di partecipazione"
-    requirements_description: "<bold>Il livello di questo corso è intermedio-avanzato.</bold>
+    requirements_description: "<bold>Il livello di questo corso è intermedio.</bold>
     <br>È necessario:
     <ul><li>Avere almeno 1 anno di esperienza lavorativa;</li>
     <li>Conoscere gli strumenti di base di software affini (Sketch, Adobe XD, Illustrator, ecc.; la conoscenza di Elementor o Webflow è un plus);</li>
-    <li>Avere un portatile.</li></ul>
+    <li>Avere un laptop portatile.</li></ul>
     <br>
     Qualche giorno prima del corso ti spiegheremo come installare Figma (è gratis!) e prepararti al meglio per il workshop. Vogliamo partecipanti felici."
     useful_info_title: "Cosa ottieni partecipando"
     useful_info_description: "<ul>
-    <li>Ti spieghiamo passo a passo come passare a Figma senza lacrime e convincere anche la tua azienda e/o il tuo team a farlo. perchè davvero non ne potrai più fare a meno.</li>
-    <li>No fuffa, molte esercitazioni pratiche. Ti facciamo vedere come facciamo ogni giorni coi nostri clienti. Spazio per tutte le tue domande.</li>
+    <li>Ti spieghiamo passo a passo come passare a Figma senza lacrime e convincere anche la tua azienda e/o il tuo team a farlo. Perchè davvero non ne potrai più fare a meno.</li>
+    <li>No fuffa, molte esercitazioni pratiche. Ti facciamo vedere come facciamo ogni giorno coi nostri clienti. Spazio per tutte le tue domande.</li>
     <li>I consigli pro dall’esperienza pluriennale di Belka con le migliori aziende tech italiane.</li>
-    <li>Ci assicuriamo di avere un gruppo selezionato di partecipanti per partire con un livello comune e coi quali, perchè no, stringere nuove amicizie. Belka crede nelle relazioni magiche.</li>
+    <li>Ci assicuriamo di avere un gruppo selezionato di partecipanti per partire con un livello comune e coi quali, perchè no, stringere nuove amicizie. In Belka crediamo nelle relazioni magiche.</li>
     </ul>"
     # CTA
     cta_title: "Acquista il biglietto per partecipare"

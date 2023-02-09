@@ -10,13 +10,13 @@ menu:
   # scommentare per generare pagina
 # schedule: programma
   # menu item for workshop
-# workshop: workshop
+  workshop: workshop
   sponsor: sponsor
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
-# workshop_submenu:
-#    font_variabili: Tipografia web e font variabili
-#   workshop_2: sample second workshop
+workshop_submenu:
+  figma: Fai il salto a Figma!
+
 
 # welcome submenu
 welcome_submenu:
