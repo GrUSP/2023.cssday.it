@@ -30,10 +30,14 @@ silver:
     site_url: "https://www.extera.com/"
 bronze:
   sponsor1:
+    name: "Antreem"
+    logo_filename: "antreem.png"
+    site_url: "https://antreem.com/it"
+  sponsor2:
     name: "Doubleloop"
     logo_filename: "doubleloop.svg"
     site_url: "https://doubleloop.io/"
-  sponsor4:
+  sponsor3:
     name: "Sticker Mule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/uses/laptop-stickers"
