@@ -97,7 +97,7 @@ speaker_9: &lorenzo-spinelli
   speaker_in_speaker_lists: true
   speaker_name: Lorenzo Spinelli
   speaker_pic_filename: lorenzo-spinelli.png
-  speaker_role: "Co-founder @ firenze.dev"
+  speaker_role: "Fullstack developer @ register.it, Co-founder @ firenze.dev"
   speaker_bio: "Lorenzo è uno sviluppatore full-stack web3 e mentor presso Register.it. Trascorre le sue giornate scrivendo codice, aiutando gli altri e imparando cose nuove. Nel tempo libero, è coinvolto nella community firenze.dev di cui è co-fondatore. Gli piace molto imparare cose nuove e raccontarle agli altri. È uno sviluppatore entusiasta di web3, blockchain, smart contract e advocate della blockchain Polygon."
   speaker_github_url: "https://github.com/Spyna"
   speaker_twitter_url: "https://twitter.com/spinaLorenzo"
