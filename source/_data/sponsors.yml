@@ -38,6 +38,10 @@ bronze:
     logo_filename: "doubleloop.svg"
     site_url: "https://doubleloop.io/"
   sponsor3:
+    name: "register.it"
+    logo_filename: "register.png"
+    site_url: "https://www.register.it/"
+  sponsor4:
     name: "Sticker Mule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/uses/laptop-stickers"
