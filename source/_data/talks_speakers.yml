@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -149,45 +149,49 @@ tracks:
 
 days:
   day_1:
-    date: 2021-03-11T09:15+01:00
+    date: 2023-03-31T09:30+02:00
     title: "Day 1"
     talks:
-      talk_1:
+# service
+      checkin:
         item_type: "service"
-        track: *track_1
-        start_datetime: 2021-03-11T09:15+01:00
-        end_datetime: 2020-03-11T09:30+01:00
-        talk_title: "Welcome!"
-      talk_2:
+        start_datetime: 2023-03-31T09:00+02:00
+        end_datetime: 2023-03-31T09:30+02:00
+        talk_title: "Check-in"
+      opening:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
-        talk_title: "Lunch break"
+        start_datetime: 2023-03-31T09:30+02:00
+        end_datetime: 2023-03-31T09:45+02:00
+        talk_title: "Intro by GrUSP"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2023-03-31T10:55+02:00
+        end_datetime: 2023-03-31T11:25+02:00
+        talk_title: "Pausa Caffé"
+        service_icon: "coffee"
+      lunch:
+        item_type: "service"
+        start_datetime: 2023-03-31T13:10+02:00
+        end_datetime: 2023-03-31T14:30+02:00
+        talk_title: "Pausa pranzo"
         service_icon: "cutlery"
-      happy-hour:
+      coffee-afternoon:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
-
-      # talk
-      container:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Container Queries: la rivoluzione (in)attesa di CSS"
-        talk_description: "Da tempo volevamo la possibilità di applicare media queries a dei singoli contenitori e non a tutta la pagina, per risolvere i nostri problemi di stilizzazione di componenti e widget.
-        Finalmente, dopo tanti rinvii, questa possibililtà è arrivata. Senza contare le altre novità meno attese che si stanno aggiungendo, e che possono cambiare radicalmente il modo in cui applichiamo, concepiamo e sviluppiamo in CSS."
-        talk_video_url:
-        speakers:
-          speaker_1: *massimo
+        start_datetime: 2023-03-31T15:40+02:00
+        end_datetime: 2023-03-31T16:10+02:00
+        talk_title: "Pausa Caffé"
+        service_icon: "coffee"
+      closing:
+        item_type: "service"
+        start_datetime: 2023-03-31T17:20+02:00
+        end_datetime: 2023-03-31T17:30+02:00
+        talk_title: "Saluti da GrUSP"
+# talk
       javascript:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2023-03-31T09:45+02:00
+        end_datetime: 2023-03-31T10:20+02:00
         talk_title: "Si può fare: cose che credevi impossibili senza l'uso di Javascript"
         talk_description: "CSS è un linguaggio in continua evoluzione.
         L'introduzione di nuovi selettori e regole nei browser consente a volte di implementare funzionalità che normalmente richiedevano l'uso di Javascript, usando solamente CSS ed HTML.
@@ -196,11 +200,23 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *mauro
+      trigonometria:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-03-31T10:20+02:00
+        end_datetime: 2023-03-31T10:55+02:00
+        talk_title: "Trip on trig: alla scoperta della trigonometria"
+        talk_description: "Era il febbraio 2019 quando le funzioni di trigonometria sono state approvate in una riunione del gruppo di lavoro CSS del World Wide Web Consortium (W3C).
+        Ora i browser iniziano a supportare questa novità, permettendoci di utilizzare direttamente queste funzioni senza appesantire i progetti con librerie javascript e senza l'obbligo di ricorrere a preprocessori.
+        Faremo un viaggio alla scoperta della trigonometria del CSS, con una panoramica sulle singole funzioni, sui browser che le supportano e le supporteranno a breve ed esempi concreti di utilizzo per il disegno di forme e animazioni."
+        talk_video_url:
+        speakers:
+          speaker_1: *eleonora
       accessibilità:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2023-03-31T11:25+02:00
+        end_datetime: 2023-03-31T12:00+02:00
         talk_title: "CSS e accessibilità web, una vecchia amicizia "
         talk_description: "È così bello realizzare e sviluppare design accattivanti che a volte ci si dimentica che potrebbero non essere user friendly, o peggio ancora potrebbero non essere accessibili.
         Dai colori al focus, dal nascondere elementi a… non scrivere CSS!
@@ -208,37 +224,11 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *diana
-      design-system:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Design System for Software Development Team"
-        talk_description: "Material UI, Ant, Bootstrap, Bulma sono solo alcune delle possibili librerie che possiamo scegliere per il look and feel del nostro nuovo progetto.
-        Ma possiamo considerare queste librerie il design system delle nostre applicazioni? Possiamo permetterci di far decidere agli altri quale sia il nostro Design System?
-        Cerchiamo di vederci più chiaro trovando una soluzione che semplifichi la comunicazione tra noi e il nostro Business e che possa aiutare tutti i nostri utenti a comprendere al meglio il valore del nostro prodotto."
-        talk_video_url:
-        speakers:
-          speaker_1: *luca
-      stranamore:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Il dottor Stranamore - Ovvero: come ho imparato a non preoccuparmi e ad amare la cascata"
-        talk_description: "Viviamo in un costante allarme bomba! Una guerra fredda nell'attesa che qualcosa di brutto accada al prodotto su cui stiamo lavorando, alla landing che abbiamo appena messo su o al design system nuovo di pacca.
-        Ma quest'offensiva belligerante invece, non si verifica quasi mai. E quando si verifica più che una bomba é un petardo. Un minicicciolo!
-        Perché abbiamo dunque il sacro terrore che questa bomba fatta di selettori, proprietà ignote e nesting folli, ci esploda in faccia?
-        Perché paghiamo lo scotto di UX, performance e automutilazioni spontanee ogni volta che scriviamo due righe di CSS?
-        Fermiamo questa distruzione mutua assicurata, sedendoci insieme ad un tavolo e capendo come in 15 anni di lavoro, alla fine la paura di tutto questo, forse, probabilmente o almeno nel mio caso è totalmente ingiustificata!"
-        talk_video_url:
-        speakers:
-          speaker_1: *davide
       tipografia:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2023-03-31T12:00+02:00
+        end_datetime: 2023-03-31T12:35+02:00
         talk_title: "Tipografia web: dall’accessibilità alla leggibilità"
         talk_description: "Rispettare le linee guida per l’accessibilità è un buon inizio, ma i fattori che condizionano l’esperienza di lettura dei testi sono numerosi e intrecciati fra loro: dai meccanismi fisici della lettura, a quelli cognitivi di elaborazione, all’attenzione.
         Progettare oggi siti con testi facilmente (e piacevolmente) leggibili sui vari tipi di schermi, che funzionino bene per ciascun lettore e in situazioni varie è una sfida contemporanea che si sta affinando.
@@ -247,35 +237,11 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *giulia
-      sostenibilità:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Sustainable me. A tale of good design"
-        talk_description: "È il 2023 e si parla ovunque di energia pulita, rinnovabili, bitcoin farms, accordi sul clima e cambiamenti climatici, ma avete mai pensato al peso che una singola applicazione client server può avere su questa guerra climatica che tutti stiamo combattendo?
-        È ora di riconoscere che non tutti i problemi hanno le dimensioni di un elefante e che possiamo cambiare il mondo anche con i più piccoli passi.
-        Unitevi a me e scoprite come Internet sia tra i produttori della maggior parte della CO2 rilasciata ogni anno. Combattiamo il cambiamento climatico, una div alla volta."
-        talk_video_url:
-        speakers:
-          speaker_1: *lorenzo-pieri
-      trigonometria:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Trip on trig: alla scoperta della trigonometria"
-        talk_description: "Era il febbraio 2019 quando le funzioni di trigonometria sono state approvate in una riunione del gruppo di lavoro CSS del World Wide Web Consortium (W3C).
-        Ora i browser iniziano a supportare questa novità, permettendoci di utilizzare direttamente queste funzioni senza appesantire i progetti con librerie javascript e senza l'obbligo di ricorrere a preprocessori.
-        Faremo un viaggio alla scoperta della trigonometria del CSS, con una panoramica sulle singole funzioni, sui browser che le supportano e le supporteranno a breve ed esempi concreti di utilizzo per il disegno di forme e animazioni."
-        talk_video_url:
-        speakers:
-          speaker_1: *eleonora
       usabilità:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2023-03-31T12:35+02:00
+        end_datetime: 2023-03-31T13:10+02:00
         talk_title: "Testare l'usabilità"
         talk_description: "Come si riesce a mettere d’accordo il capo del marketing che vuole il pulsante rosso e quello degli UX che lo vuole verde?
         I designer stanno discutendo del colore delle tende, ma nessuno si è accorto che mancano le finestre?
@@ -287,3 +253,53 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *lorenzo-spinelli
+      container:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-03-31T14:30+02:00
+        end_datetime: 2023-03-31T15:05+02:00
+        talk_title: "Container Queries: la rivoluzione (in)attesa di CSS"
+        talk_description: "Da tempo volevamo la possibilità di applicare media queries a dei singoli contenitori e non a tutta la pagina, per risolvere i nostri problemi di stilizzazione di componenti e widget.
+        Finalmente, dopo tanti rinvii, questa possibililtà è arrivata. Senza contare le altre novità meno attese che si stanno aggiungendo, e che possono cambiare radicalmente il modo in cui applichiamo, concepiamo e sviluppiamo in CSS."
+        talk_video_url:
+        speakers:
+          speaker_1: *massimo
+      sostenibilità:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-03-31T15:05+02:00
+        end_datetime: 2023-03-31T15:40+02:00
+        talk_title: "Sustainable me. A tale of good design"
+        talk_description: "È il 2023 e si parla ovunque di energia pulita, rinnovabili, bitcoin farms, accordi sul clima e cambiamenti climatici, ma avete mai pensato al peso che una singola applicazione client server può avere su questa guerra climatica che tutti stiamo combattendo?
+        È ora di riconoscere che non tutti i problemi hanno le dimensioni di un elefante e che possiamo cambiare il mondo anche con i più piccoli passi.
+        Unitevi a me e scoprite come Internet sia tra i produttori della maggior parte della CO2 rilasciata ogni anno. Combattiamo il cambiamento climatico, una div alla volta."
+        talk_video_url:
+        speakers:
+          speaker_1: *lorenzo-pieri
+      design-system:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-03-31T16:10+02:00
+        end_datetime: 2023-03-31T16:45+02:00
+        talk_title: "Design System for Software Development Team"
+        talk_description: "Material UI, Ant, Bootstrap, Bulma sono solo alcune delle possibili librerie che possiamo scegliere per il look and feel del nostro nuovo progetto.
+        Ma possiamo considerare queste librerie il design system delle nostre applicazioni? Possiamo permetterci di far decidere agli altri quale sia il nostro Design System?
+        Cerchiamo di vederci più chiaro trovando una soluzione che semplifichi la comunicazione tra noi e il nostro Business e che possa aiutare tutti i nostri utenti a comprendere al meglio il valore del nostro prodotto."
+        talk_video_url:
+        speakers:
+          speaker_1: *luca
+      stranamore:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-03-31T16:45+02:00
+        end_datetime: 2023-03-31T17:20+02:00
+        talk_title: "Il dottor Stranamore - Ovvero: come ho imparato a non preoccuparmi e ad amare la cascata"
+        talk_description: "Viviamo in un costante allarme bomba! Una guerra fredda nell'attesa che qualcosa di brutto accada al prodotto su cui stiamo lavorando, alla landing che abbiamo appena messo su o al design system nuovo di pacca.
+        Ma quest'offensiva belligerante invece, non si verifica quasi mai. E quando si verifica più che una bomba é un petardo. Un minicicciolo!
+        Perché abbiamo dunque il sacro terrore che questa bomba fatta di selettori, proprietà ignote e nesting folli, ci esploda in faccia?
+        Perché paghiamo lo scotto di UX, performance e automutilazioni spontanee ogni volta che scriviamo due righe di CSS?
+        Fermiamo questa distruzione mutua assicurata, sedendoci insieme ad un tavolo e capendo come in 15 anni di lavoro, alla fine la paura di tutto questo, forse, probabilmente o almeno nel mio caso è totalmente ingiustificata!"
+        talk_video_url:
+        speakers:
+          speaker_1: *davide
+

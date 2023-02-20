@@ -29,8 +29,8 @@ workshops:
     whatandwhen_title: "Quando"
     whatandwhen_additional_info: "Giovedì 30 Marzo 2023, dalle 9:30 alle 17:30. Pausa caffè e pranzo inclusi."
     # whatandwhen_additional_info: "additional"
-    date: 2023-03-30T09:30+01:00
-    end_date: 2023-03-30T18:00+01:00
+    date: 2023-03-30T09:30+02:00
+    end_date: 2023-03-30T18:00+02:00
     date_text: "Giovedì 30 Marzo 2023, dalle 9:30 alle 17:30"
     language_title: "Lingua"
     language: "italiano"
