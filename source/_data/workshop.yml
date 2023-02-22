@@ -14,9 +14,9 @@ workshops:
     ticket_url: "https://cssday-2023.eventbrite.com"
     ticket_label: "Partecipa"
     location_title: "Dove"
-    location: "Faenza"
+    location: "In presenza a Faenza"
    # online_location: "online"
-    location_name: "Faventia Sales (Complesso Ex Salesiani)"
+    location_name: "In presenza a Faenza, presso Faventia Sales (Complesso Ex Salesiani)"
     # location_name: "The Internet"
     # location_contact_phone: "+045569011"
     # location_contact_email: "sanmarco@sanmarco.vr.it"
@@ -36,7 +36,7 @@ workshops:
     language: "italiano"
     language_ext: ""
     language_additional_info: ""
-    collab: "Workshop realizzato in collaborazione con <a href='https://www.belkadigital.com/'>Belka</a>"
+    collab: "Workshop in presenza a Faenza realizzato in collaborazione con <a href='https://www.belkadigital.com/'>Belka</a>"
     description: "Impara le funzioni avanzate con chi l’ha insegnato alle migliori aziende tech"
     description_long:
       "<strong>Impara le funzioni avanzate con chi l’ha insegnato alle migliori aziende tech</strong>
