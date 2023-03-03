@@ -28,6 +28,10 @@ silver:
     name: "extera"
     logo_filename: "extera.svg"
     site_url: "https://www.extera.com/"
+  sponsor2:
+    name: "weroad"
+    logo_filename: "weroad.svg"
+    site_url: "https://career.weroad.travel/"
 bronze:
   sponsor1:
     name: "Antreem"
